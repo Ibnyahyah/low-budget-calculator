@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+li{
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    margin-bottom: 5px;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.creator{
+   text-align: center;
+   margin-top: 100px;
+   color: rgb(53, 22, 12);
+   text-shadow: 2px 2px #ff0000;
+
+}
