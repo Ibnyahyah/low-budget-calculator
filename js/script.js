@@ -1,26 +1,25 @@
-function add(){
-    alert("it's a low Budget Calculator, the addition cant work");
-    // var a = prompt("enter ");
-    // var b = prompt("enter ");
-    // add = a + b;
-    // console.log(add);
-
+function add() {
+    // alert("it's a low Budget Calculator, the addition cant work");
+    var a = prompt("Enter your Number ");
+    var b = prompt("Enter your Number ");
+    let result = Number(a) + Number(b);
+    alert(`${a} + ${b} = ${result}`);
 }
-function sub(){
+function sub() {
     var a = prompt("Enter your Number");
     var b = prompt("Enter your Number");
-    add = a - b;
-    document.write(`${a} - ${b} = ${add}`);
+    let result = a - b;
+    alert(`${a} - ${b} = ${result}`);
 }
-function div(){
+function div() {
     var a = prompt("Enter your Number");
     var b = prompt("Enter your Number");
-    add = a / b;
-    document.write(`${a} / ${b} = ${add}`);
+    let result = a / b;
+    alert(`${a} / ${b} = ${result}`);
 }
-function mult(){
+function mult() {
     var a = prompt("Enter your Number");
     var b = prompt("Enter your Number");
-    add = a * b;
-    document.write(`${a} * ${b} = ${add}`);
+    let result = a * b;
+    alert(`${a} * ${b} = ${result}`);
 }
